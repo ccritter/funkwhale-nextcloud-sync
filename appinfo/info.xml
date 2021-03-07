@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>funkwhalesync</id>
+    <name>Funkwhale Sync</name>
+    <summary>Keep Funkwhale in sync with a Nextcloud hosted library</summary>
+    <description><![CDATA[With music hosted remote on Nextcloud, this will send CRUD requests to Funkwhale to keep your library up to date.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="chriscritter1@gmail.com" homepage="https://chriscritter.com">Christopher Ritter</author>
+    <namespace>FunkwhaleSync</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/ccritter/funkwhale-nextcloud-sync</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Funkwhale Sync</name>
+            <route>funkwhalesync.page.index</route>
+        </navigation>
+    </navigations>
+</info>

@@ -1,0 +1,15 @@
+{
+    "name": "Funkwhale Sync",
+    "description": "Keep Funkwhale in sync with a Nextcloud hosted library",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Christopher Ritter"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
